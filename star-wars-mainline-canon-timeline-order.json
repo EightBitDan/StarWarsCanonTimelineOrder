@@ -1672,14 +1672,6 @@
    "Episode": "n/a"
  },
  {
-   "Date": "~9-2 BBY",
-   "Type": "TV",
-   "Title": "Star Wars: Tales of the Empire",
-   "Episode Name": "The Path of Anger",
-   "Season": "1",
-   "Episode": "2"
- },
- {
    "Date": "9 BBY",
    "Type": "TV",
    "Title": "Star Wars: Obi-Wan Kenobi",
@@ -1726,6 +1718,14 @@
    "Episode Name": "Part VI",
    "Season": "1",
    "Episode": "6"
+ },
+ {
+   "Date": "~9-2 BBY",
+   "Type": "TV",
+   "Title": "Star Wars: Tales of the Empire",
+   "Episode Name": "The Path of Anger",
+   "Season": "1",
+   "Episode": "2"
  },
  {
    "Date": "~9-0 BBY",
