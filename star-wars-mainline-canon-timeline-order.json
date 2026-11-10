@@ -64,7 +64,7 @@
    "Episode": "8"
  },
  {
-   "Date": "60~50?BBY",
+   "Date": "60~50 BBY",
    "Type": "TV",
    "Title": "Star Wars: Tales of the Jedi",
    "Episode Name": "Justice",
@@ -80,7 +80,7 @@
    "Episode": "4"
  },
  {
-   "Date": "50~48?BBY",
+   "Date": "50~48 BBY",
    "Type": "TV",
    "Title": "Star Wars: Tales of the Jedi",
    "Episode Name": "Choices",
@@ -130,7 +130,7 @@
  {
    "Date": "22 BBY",
    "Type": "Film",
-   "Title": "Star Wars: Episode II ",
+   "Title": "Star Wars: Episode II",
    "Episode Name": "Attack of the Clones",
    "Season": "n/a",
    "Episode": "n/a"
@@ -2483,7 +2483,7 @@
    "Date": "1 BBY",
    "Type": "TV",
    "Title": "Star Wars Rebels",
-   "Episode Name": "Family Reunion � and Farewell",
+   "Episode Name": "Family Reunion – and Farewell",
    "Season": "4",
    "Episode": "15"
  },
@@ -2507,7 +2507,7 @@
    "Date": "1 BBY",
    "Type": "TV",
    "Title": "Star Wars: Andor",
-   "Episode Name": "Jedha Kyber�Erso",
+   "Episode Name": "Jedha Kyber Erso",
    "Season": "2",
    "Episode": "12"
  },
