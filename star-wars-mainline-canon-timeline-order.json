@@ -3726,8 +3726,188 @@
     "notes": null
   },
   {
-    "id": "film:solo-a-star-wars-story",
+    "id": "tv:maul-shadow-lord:s01e01",
     "timeline_order": 208,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "The Dark Revenge",
+    "season_number": 1,
+    "episode_number": 1,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e02",
+    "timeline_order": 209,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "Sinister Schemes",
+    "season_number": 1,
+    "episode_number": 2,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e03",
+    "timeline_order": 210,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "Whispers in the Unknown",
+    "season_number": 1,
+    "episode_number": 3,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e04",
+    "timeline_order": 211,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "Pride and Vengeance",
+    "season_number": 1,
+    "episode_number": 4,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e05",
+    "timeline_order": 212,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "Inquisition",
+    "season_number": 1,
+    "episode_number": 5,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e06",
+    "timeline_order": 213,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "Night of the Hunted",
+    "season_number": 1,
+    "episode_number": 6,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e07",
+    "timeline_order": 214,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "Call to Oblivion",
+    "season_number": 1,
+    "episode_number": 7,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e08",
+    "timeline_order": 215,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "The Creeping Fear",
+    "season_number": 1,
+    "episode_number": 8,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e09",
+    "timeline_order": 216,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "Strange Allies",
+    "season_number": 1,
+    "episode_number": 9,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "tv:maul-shadow-lord:s01e10",
+    "timeline_order": 217,
+    "media_type": "tv_episode",
+    "series_id": "maul-shadow-lord",
+    "series_title": "Star Wars: Maul - Shadow Lord",
+    "item_title": "The Dark Lord",
+    "season_number": 1,
+    "episode_number": 10,
+    "date_label": "~17 BBY",
+    "date_start_year": 17,
+    "date_start_era": "BBY",
+    "date_end_year": 17,
+    "date_end_era": "BBY",
+    "date_certainty": "approximate",
+    "source_url": "https://starwars.fandom.com/wiki/Timeline_of_canon_media",
+    "notes": "Wookieepedia places Season 1 at circa 17 BBY and marks exact placement as uncertain. The year is approximate. Checked 2026-11-10."
+  },
+  {
+    "id": "film:solo-a-star-wars-story",
+    "timeline_order": 218,
     "media_type": "film",
     "series_id": null,
     "series_title": null,
@@ -3745,7 +3925,7 @@
   },
   {
     "id": "tv:obi-wan-kenobi:s01e01",
-    "timeline_order": 209,
+    "timeline_order": 219,
     "media_type": "tv_episode",
     "series_id": "obi-wan-kenobi",
     "series_title": "Star Wars: Obi-Wan Kenobi",
@@ -3763,7 +3943,7 @@
   },
   {
     "id": "tv:obi-wan-kenobi:s01e02",
-    "timeline_order": 210,
+    "timeline_order": 220,
     "media_type": "tv_episode",
     "series_id": "obi-wan-kenobi",
     "series_title": "Star Wars: Obi-Wan Kenobi",
@@ -3781,7 +3961,7 @@
   },
   {
     "id": "tv:obi-wan-kenobi:s01e03",
-    "timeline_order": 211,
+    "timeline_order": 221,
     "media_type": "tv_episode",
     "series_id": "obi-wan-kenobi",
     "series_title": "Star Wars: Obi-Wan Kenobi",
@@ -3799,7 +3979,7 @@
   },
   {
     "id": "tv:obi-wan-kenobi:s01e04",
-    "timeline_order": 212,
+    "timeline_order": 222,
     "media_type": "tv_episode",
     "series_id": "obi-wan-kenobi",
     "series_title": "Star Wars: Obi-Wan Kenobi",
@@ -3817,7 +3997,7 @@
   },
   {
     "id": "tv:obi-wan-kenobi:s01e05",
-    "timeline_order": 213,
+    "timeline_order": 223,
     "media_type": "tv_episode",
     "series_id": "obi-wan-kenobi",
     "series_title": "Star Wars: Obi-Wan Kenobi",
@@ -3835,7 +4015,7 @@
   },
   {
     "id": "tv:obi-wan-kenobi:s01e06",
-    "timeline_order": 214,
+    "timeline_order": 224,
     "media_type": "tv_episode",
     "series_id": "obi-wan-kenobi",
     "series_title": "Star Wars: Obi-Wan Kenobi",
@@ -3853,7 +4033,7 @@
   },
   {
     "id": "tv:tales-of-the-empire:s01e02",
-    "timeline_order": 215,
+    "timeline_order": 225,
     "media_type": "tv_episode",
     "series_id": "tales-of-the-empire",
     "series_title": "Star Wars: Tales of the Empire",
@@ -3871,7 +4051,7 @@
   },
   {
     "id": "tv:tales-of-the-empire:s01e06",
-    "timeline_order": 216,
+    "timeline_order": 226,
     "media_type": "tv_episode",
     "series_id": "tales-of-the-empire",
     "series_title": "Star Wars: Tales of the Empire",
@@ -3889,7 +4069,7 @@
   },
   {
     "id": "tv:andor:s01e01",
-    "timeline_order": 217,
+    "timeline_order": 227,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -3907,7 +4087,7 @@
   },
   {
     "id": "tv:andor:s01e02",
-    "timeline_order": 218,
+    "timeline_order": 228,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -3925,7 +4105,7 @@
   },
   {
     "id": "tv:andor:s01e03",
-    "timeline_order": 219,
+    "timeline_order": 229,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -3943,7 +4123,7 @@
   },
   {
     "id": "tv:andor:s01e04",
-    "timeline_order": 220,
+    "timeline_order": 230,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -3961,7 +4141,7 @@
   },
   {
     "id": "tv:andor:s01e05",
-    "timeline_order": 221,
+    "timeline_order": 231,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -3979,7 +4159,7 @@
   },
   {
     "id": "tv:andor:s01e06",
-    "timeline_order": 222,
+    "timeline_order": 232,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -3997,7 +4177,7 @@
   },
   {
     "id": "tv:andor:s01e07",
-    "timeline_order": 223,
+    "timeline_order": 233,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4015,7 +4195,7 @@
   },
   {
     "id": "tv:andor:s01e08",
-    "timeline_order": 224,
+    "timeline_order": 234,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4033,7 +4213,7 @@
   },
   {
     "id": "tv:andor:s01e09",
-    "timeline_order": 225,
+    "timeline_order": 235,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4051,7 +4231,7 @@
   },
   {
     "id": "tv:andor:s01e10",
-    "timeline_order": 226,
+    "timeline_order": 236,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4069,7 +4249,7 @@
   },
   {
     "id": "tv:andor:s01e11",
-    "timeline_order": 227,
+    "timeline_order": 237,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4087,7 +4267,7 @@
   },
   {
     "id": "tv:andor:s01e12",
-    "timeline_order": 228,
+    "timeline_order": 238,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4105,7 +4285,7 @@
   },
   {
     "id": "tv:rebels:s01e01",
-    "timeline_order": 229,
+    "timeline_order": 239,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4123,7 +4303,7 @@
   },
   {
     "id": "tv:rebels:s01e02",
-    "timeline_order": 230,
+    "timeline_order": 240,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4141,7 +4321,7 @@
   },
   {
     "id": "tv:rebels:s01e03",
-    "timeline_order": 231,
+    "timeline_order": 241,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4159,7 +4339,7 @@
   },
   {
     "id": "tv:rebels:s01e04",
-    "timeline_order": 232,
+    "timeline_order": 242,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4177,7 +4357,7 @@
   },
   {
     "id": "tv:rebels:s01e05",
-    "timeline_order": 233,
+    "timeline_order": 243,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4195,7 +4375,7 @@
   },
   {
     "id": "tv:rebels:s01e06",
-    "timeline_order": 234,
+    "timeline_order": 244,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4213,7 +4393,7 @@
   },
   {
     "id": "tv:rebels:s01e07",
-    "timeline_order": 235,
+    "timeline_order": 245,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4231,7 +4411,7 @@
   },
   {
     "id": "tv:rebels:s01e08",
-    "timeline_order": 236,
+    "timeline_order": 246,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4249,7 +4429,7 @@
   },
   {
     "id": "tv:rebels:s01e09",
-    "timeline_order": 237,
+    "timeline_order": 247,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4267,7 +4447,7 @@
   },
   {
     "id": "tv:rebels:s01e10",
-    "timeline_order": 238,
+    "timeline_order": 248,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4285,7 +4465,7 @@
   },
   {
     "id": "tv:rebels:s01e11",
-    "timeline_order": 239,
+    "timeline_order": 249,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4303,7 +4483,7 @@
   },
   {
     "id": "tv:rebels:s01e12",
-    "timeline_order": 240,
+    "timeline_order": 250,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4321,7 +4501,7 @@
   },
   {
     "id": "tv:rebels:s01e13",
-    "timeline_order": 241,
+    "timeline_order": 251,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4339,7 +4519,7 @@
   },
   {
     "id": "tv:rebels:s01e14",
-    "timeline_order": 242,
+    "timeline_order": 252,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4357,7 +4537,7 @@
   },
   {
     "id": "tv:rebels:s01e15",
-    "timeline_order": 243,
+    "timeline_order": 253,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4375,7 +4555,7 @@
   },
   {
     "id": "tv:andor:s02e01",
-    "timeline_order": 244,
+    "timeline_order": 254,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4393,7 +4573,7 @@
   },
   {
     "id": "tv:andor:s02e02",
-    "timeline_order": 245,
+    "timeline_order": 255,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4411,7 +4591,7 @@
   },
   {
     "id": "tv:andor:s02e03",
-    "timeline_order": 246,
+    "timeline_order": 256,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4429,7 +4609,7 @@
   },
   {
     "id": "tv:rebels:s02e01",
-    "timeline_order": 247,
+    "timeline_order": 257,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4447,7 +4627,7 @@
   },
   {
     "id": "tv:rebels:s02e02",
-    "timeline_order": 248,
+    "timeline_order": 258,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4465,7 +4645,7 @@
   },
   {
     "id": "tv:rebels:s02e03",
-    "timeline_order": 249,
+    "timeline_order": 259,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4483,7 +4663,7 @@
   },
   {
     "id": "tv:rebels:s02e04",
-    "timeline_order": 250,
+    "timeline_order": 260,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4501,7 +4681,7 @@
   },
   {
     "id": "tv:rebels:s02e05",
-    "timeline_order": 251,
+    "timeline_order": 261,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4519,7 +4699,7 @@
   },
   {
     "id": "tv:rebels:s02e06",
-    "timeline_order": 252,
+    "timeline_order": 262,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4537,7 +4717,7 @@
   },
   {
     "id": "tv:rebels:s02e07",
-    "timeline_order": 253,
+    "timeline_order": 263,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4555,7 +4735,7 @@
   },
   {
     "id": "tv:rebels:s02e08",
-    "timeline_order": 254,
+    "timeline_order": 264,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4573,7 +4753,7 @@
   },
   {
     "id": "tv:rebels:s02e09",
-    "timeline_order": 255,
+    "timeline_order": 265,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4591,7 +4771,7 @@
   },
   {
     "id": "tv:rebels:s02e10",
-    "timeline_order": 256,
+    "timeline_order": 266,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4609,7 +4789,7 @@
   },
   {
     "id": "tv:andor:s02e04",
-    "timeline_order": 257,
+    "timeline_order": 267,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4627,7 +4807,7 @@
   },
   {
     "id": "tv:andor:s02e05",
-    "timeline_order": 258,
+    "timeline_order": 268,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4645,7 +4825,7 @@
   },
   {
     "id": "tv:andor:s02e06",
-    "timeline_order": 259,
+    "timeline_order": 269,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -4663,7 +4843,7 @@
   },
   {
     "id": "tv:rebels:s02e11",
-    "timeline_order": 260,
+    "timeline_order": 270,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4681,7 +4861,7 @@
   },
   {
     "id": "tv:rebels:s02e12",
-    "timeline_order": 261,
+    "timeline_order": 271,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4699,7 +4879,7 @@
   },
   {
     "id": "tv:rebels:s02e13",
-    "timeline_order": 262,
+    "timeline_order": 272,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4717,7 +4897,7 @@
   },
   {
     "id": "tv:rebels:s02e14",
-    "timeline_order": 263,
+    "timeline_order": 273,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4735,7 +4915,7 @@
   },
   {
     "id": "tv:rebels:s02e15",
-    "timeline_order": 264,
+    "timeline_order": 274,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4753,7 +4933,7 @@
   },
   {
     "id": "tv:rebels:s02e16",
-    "timeline_order": 265,
+    "timeline_order": 275,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4771,7 +4951,7 @@
   },
   {
     "id": "tv:rebels:s02e17",
-    "timeline_order": 266,
+    "timeline_order": 276,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4789,7 +4969,7 @@
   },
   {
     "id": "tv:rebels:s02e18",
-    "timeline_order": 267,
+    "timeline_order": 277,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4807,7 +4987,7 @@
   },
   {
     "id": "tv:rebels:s02e19",
-    "timeline_order": 268,
+    "timeline_order": 278,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4825,7 +5005,7 @@
   },
   {
     "id": "tv:rebels:s02e20",
-    "timeline_order": 269,
+    "timeline_order": 279,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4843,7 +5023,7 @@
   },
   {
     "id": "tv:rebels:s02e21",
-    "timeline_order": 270,
+    "timeline_order": 280,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4861,7 +5041,7 @@
   },
   {
     "id": "tv:rebels:s02e22",
-    "timeline_order": 271,
+    "timeline_order": 281,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4879,7 +5059,7 @@
   },
   {
     "id": "tv:rebels:s03e01",
-    "timeline_order": 272,
+    "timeline_order": 282,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4897,7 +5077,7 @@
   },
   {
     "id": "tv:rebels:s03e02",
-    "timeline_order": 273,
+    "timeline_order": 283,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4915,7 +5095,7 @@
   },
   {
     "id": "tv:rebels:s03e03",
-    "timeline_order": 274,
+    "timeline_order": 284,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4933,7 +5113,7 @@
   },
   {
     "id": "tv:rebels:s03e04",
-    "timeline_order": 275,
+    "timeline_order": 285,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4951,7 +5131,7 @@
   },
   {
     "id": "tv:rebels:s03e05",
-    "timeline_order": 276,
+    "timeline_order": 286,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4969,7 +5149,7 @@
   },
   {
     "id": "tv:rebels:s03e06",
-    "timeline_order": 277,
+    "timeline_order": 287,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -4987,7 +5167,7 @@
   },
   {
     "id": "tv:rebels:s03e07",
-    "timeline_order": 278,
+    "timeline_order": 288,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5005,7 +5185,7 @@
   },
   {
     "id": "tv:rebels:s03e08",
-    "timeline_order": 279,
+    "timeline_order": 289,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5023,7 +5203,7 @@
   },
   {
     "id": "tv:rebels:s03e09",
-    "timeline_order": 280,
+    "timeline_order": 290,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5041,7 +5221,7 @@
   },
   {
     "id": "tv:rebels:s03e10",
-    "timeline_order": 281,
+    "timeline_order": 291,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5059,7 +5239,7 @@
   },
   {
     "id": "tv:rebels:s03e11",
-    "timeline_order": 282,
+    "timeline_order": 292,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5077,7 +5257,7 @@
   },
   {
     "id": "tv:rebels:s03e12",
-    "timeline_order": 283,
+    "timeline_order": 293,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5095,7 +5275,7 @@
   },
   {
     "id": "tv:rebels:s03e13",
-    "timeline_order": 284,
+    "timeline_order": 294,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5113,7 +5293,7 @@
   },
   {
     "id": "tv:rebels:s03e14",
-    "timeline_order": 285,
+    "timeline_order": 295,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5131,7 +5311,7 @@
   },
   {
     "id": "tv:rebels:s03e15",
-    "timeline_order": 286,
+    "timeline_order": 296,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5149,7 +5329,7 @@
   },
   {
     "id": "tv:rebels:s03e16",
-    "timeline_order": 287,
+    "timeline_order": 297,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5167,7 +5347,7 @@
   },
   {
     "id": "tv:andor:s02e07",
-    "timeline_order": 288,
+    "timeline_order": 298,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -5185,7 +5365,7 @@
   },
   {
     "id": "tv:andor:s02e08",
-    "timeline_order": 289,
+    "timeline_order": 299,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -5203,7 +5383,7 @@
   },
   {
     "id": "tv:rebels:s03e17",
-    "timeline_order": 290,
+    "timeline_order": 300,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5221,7 +5401,7 @@
   },
   {
     "id": "tv:andor:s02e09",
-    "timeline_order": 291,
+    "timeline_order": 301,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -5239,7 +5419,7 @@
   },
   {
     "id": "tv:rebels:s03e18",
-    "timeline_order": 292,
+    "timeline_order": 302,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5257,7 +5437,7 @@
   },
   {
     "id": "tv:rebels:s03e19",
-    "timeline_order": 293,
+    "timeline_order": 303,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5275,7 +5455,7 @@
   },
   {
     "id": "tv:rebels:s03e20",
-    "timeline_order": 294,
+    "timeline_order": 304,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5293,7 +5473,7 @@
   },
   {
     "id": "tv:rebels:s03e21",
-    "timeline_order": 295,
+    "timeline_order": 305,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5311,7 +5491,7 @@
   },
   {
     "id": "tv:rebels:s03e22",
-    "timeline_order": 296,
+    "timeline_order": 306,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5329,7 +5509,7 @@
   },
   {
     "id": "tv:rebels:s04e01",
-    "timeline_order": 297,
+    "timeline_order": 307,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5347,7 +5527,7 @@
   },
   {
     "id": "tv:rebels:s04e02",
-    "timeline_order": 298,
+    "timeline_order": 308,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5365,7 +5545,7 @@
   },
   {
     "id": "tv:rebels:s04e03",
-    "timeline_order": 299,
+    "timeline_order": 309,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5383,7 +5563,7 @@
   },
   {
     "id": "tv:rebels:s04e04",
-    "timeline_order": 300,
+    "timeline_order": 310,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5401,7 +5581,7 @@
   },
   {
     "id": "tv:rebels:s04e05",
-    "timeline_order": 301,
+    "timeline_order": 311,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5419,7 +5599,7 @@
   },
   {
     "id": "tv:rebels:s04e06",
-    "timeline_order": 302,
+    "timeline_order": 312,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5437,7 +5617,7 @@
   },
   {
     "id": "tv:rebels:s04e07",
-    "timeline_order": 303,
+    "timeline_order": 313,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5455,7 +5635,7 @@
   },
   {
     "id": "tv:rebels:s04e08",
-    "timeline_order": 304,
+    "timeline_order": 314,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5473,7 +5653,7 @@
   },
   {
     "id": "tv:rebels:s04e09",
-    "timeline_order": 305,
+    "timeline_order": 315,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5491,7 +5671,7 @@
   },
   {
     "id": "tv:rebels:s04e10",
-    "timeline_order": 306,
+    "timeline_order": 316,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5509,7 +5689,7 @@
   },
   {
     "id": "tv:rebels:s04e11",
-    "timeline_order": 307,
+    "timeline_order": 317,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5527,7 +5707,7 @@
   },
   {
     "id": "tv:rebels:s04e12",
-    "timeline_order": 308,
+    "timeline_order": 318,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5545,7 +5725,7 @@
   },
   {
     "id": "tv:rebels:s04e13",
-    "timeline_order": 309,
+    "timeline_order": 319,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5563,7 +5743,7 @@
   },
   {
     "id": "tv:rebels:s04e14",
-    "timeline_order": 310,
+    "timeline_order": 320,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5581,7 +5761,7 @@
   },
   {
     "id": "tv:rebels:s04e15",
-    "timeline_order": 311,
+    "timeline_order": 321,
     "media_type": "tv_episode",
     "series_id": "rebels",
     "series_title": "Star Wars Rebels",
@@ -5599,7 +5779,7 @@
   },
   {
     "id": "tv:andor:s02e10",
-    "timeline_order": 312,
+    "timeline_order": 322,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -5617,7 +5797,7 @@
   },
   {
     "id": "tv:andor:s02e11",
-    "timeline_order": 313,
+    "timeline_order": 323,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -5635,7 +5815,7 @@
   },
   {
     "id": "tv:andor:s02e12",
-    "timeline_order": 314,
+    "timeline_order": 324,
     "media_type": "tv_episode",
     "series_id": "andor",
     "series_title": "Star Wars: Andor",
@@ -5653,7 +5833,7 @@
   },
   {
     "id": "film:rogue-one-a-star-wars-story",
-    "timeline_order": 315,
+    "timeline_order": 325,
     "media_type": "film",
     "series_id": null,
     "series_title": null,
@@ -5671,7 +5851,7 @@
   },
   {
     "id": "film:episode-iv",
-    "timeline_order": 316,
+    "timeline_order": 326,
     "media_type": "film",
     "series_id": null,
     "series_title": null,
@@ -5689,7 +5869,7 @@
   },
   {
     "id": "film:episode-v",
-    "timeline_order": 317,
+    "timeline_order": 327,
     "media_type": "film",
     "series_id": null,
     "series_title": null,
@@ -5707,7 +5887,7 @@
   },
   {
     "id": "film:episode-vi",
-    "timeline_order": 318,
+    "timeline_order": 328,
     "media_type": "film",
     "series_id": null,
     "series_title": null,
@@ -5725,7 +5905,7 @@
   },
   {
     "id": "tv:the-mandalorian:s01e01",
-    "timeline_order": 319,
+    "timeline_order": 329,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5743,7 +5923,7 @@
   },
   {
     "id": "tv:the-mandalorian:s01e02",
-    "timeline_order": 320,
+    "timeline_order": 330,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5761,7 +5941,7 @@
   },
   {
     "id": "tv:the-mandalorian:s01e03",
-    "timeline_order": 321,
+    "timeline_order": 331,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5779,7 +5959,7 @@
   },
   {
     "id": "tv:the-mandalorian:s01e04",
-    "timeline_order": 322,
+    "timeline_order": 332,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5797,7 +5977,7 @@
   },
   {
     "id": "tv:the-mandalorian:s01e05",
-    "timeline_order": 323,
+    "timeline_order": 333,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5815,7 +5995,7 @@
   },
   {
     "id": "tv:the-mandalorian:s01e06",
-    "timeline_order": 324,
+    "timeline_order": 334,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5833,7 +6013,7 @@
   },
   {
     "id": "tv:the-mandalorian:s01e07",
-    "timeline_order": 325,
+    "timeline_order": 335,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5851,7 +6031,7 @@
   },
   {
     "id": "tv:the-mandalorian:s01e08",
-    "timeline_order": 326,
+    "timeline_order": 336,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5869,7 +6049,7 @@
   },
   {
     "id": "tv:the-mandalorian:s02e01",
-    "timeline_order": 327,
+    "timeline_order": 337,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5887,7 +6067,7 @@
   },
   {
     "id": "tv:the-mandalorian:s02e02",
-    "timeline_order": 328,
+    "timeline_order": 338,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5905,7 +6085,7 @@
   },
   {
     "id": "tv:the-mandalorian:s02e03",
-    "timeline_order": 329,
+    "timeline_order": 339,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5923,7 +6103,7 @@
   },
   {
     "id": "tv:the-mandalorian:s02e04",
-    "timeline_order": 330,
+    "timeline_order": 340,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5941,7 +6121,7 @@
   },
   {
     "id": "tv:tales-of-the-empire:s01e03",
-    "timeline_order": 331,
+    "timeline_order": 341,
     "media_type": "tv_episode",
     "series_id": "tales-of-the-empire",
     "series_title": "Star Wars: Tales of the Empire",
@@ -5959,7 +6139,7 @@
   },
   {
     "id": "tv:the-mandalorian:s02e05",
-    "timeline_order": 332,
+    "timeline_order": 342,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5977,7 +6157,7 @@
   },
   {
     "id": "tv:the-mandalorian:s02e06",
-    "timeline_order": 333,
+    "timeline_order": 343,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -5995,7 +6175,7 @@
   },
   {
     "id": "tv:the-mandalorian:s02e07",
-    "timeline_order": 334,
+    "timeline_order": 344,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6013,7 +6193,7 @@
   },
   {
     "id": "tv:the-mandalorian:s02e08",
-    "timeline_order": 335,
+    "timeline_order": 345,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6031,7 +6211,7 @@
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e01",
-    "timeline_order": 336,
+    "timeline_order": 346,
     "media_type": "tv_episode",
     "series_id": "the-book-of-boba-fett",
     "series_title": "Star Wars: The Book of Boba Fett",
@@ -6049,7 +6229,7 @@
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e02",
-    "timeline_order": 337,
+    "timeline_order": 347,
     "media_type": "tv_episode",
     "series_id": "the-book-of-boba-fett",
     "series_title": "Star Wars: The Book of Boba Fett",
@@ -6067,7 +6247,7 @@
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e03",
-    "timeline_order": 338,
+    "timeline_order": 348,
     "media_type": "tv_episode",
     "series_id": "the-book-of-boba-fett",
     "series_title": "Star Wars: The Book of Boba Fett",
@@ -6085,7 +6265,7 @@
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e04",
-    "timeline_order": 339,
+    "timeline_order": 349,
     "media_type": "tv_episode",
     "series_id": "the-book-of-boba-fett",
     "series_title": "Star Wars: The Book of Boba Fett",
@@ -6103,7 +6283,7 @@
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e05",
-    "timeline_order": 340,
+    "timeline_order": 350,
     "media_type": "tv_episode",
     "series_id": "the-book-of-boba-fett",
     "series_title": "Star Wars: The Book of Boba Fett",
@@ -6121,7 +6301,7 @@
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e06",
-    "timeline_order": 341,
+    "timeline_order": 351,
     "media_type": "tv_episode",
     "series_id": "the-book-of-boba-fett",
     "series_title": "Star Wars: The Book of Boba Fett",
@@ -6139,7 +6319,7 @@
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e07",
-    "timeline_order": 342,
+    "timeline_order": 352,
     "media_type": "tv_episode",
     "series_id": "the-book-of-boba-fett",
     "series_title": "Star Wars: The Book of Boba Fett",
@@ -6157,7 +6337,7 @@
   },
   {
     "id": "tv:the-mandalorian:s03e01",
-    "timeline_order": 343,
+    "timeline_order": 353,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6175,7 +6355,7 @@
   },
   {
     "id": "tv:the-mandalorian:s03e02",
-    "timeline_order": 344,
+    "timeline_order": 354,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6193,7 +6373,7 @@
   },
   {
     "id": "tv:the-mandalorian:s03e03",
-    "timeline_order": 345,
+    "timeline_order": 355,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6211,7 +6391,7 @@
   },
   {
     "id": "tv:the-mandalorian:s03e04",
-    "timeline_order": 346,
+    "timeline_order": 356,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6229,7 +6409,7 @@
   },
   {
     "id": "tv:the-mandalorian:s03e05",
-    "timeline_order": 347,
+    "timeline_order": 357,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6247,7 +6427,7 @@
   },
   {
     "id": "tv:the-mandalorian:s03e06",
-    "timeline_order": 348,
+    "timeline_order": 358,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6265,7 +6445,7 @@
   },
   {
     "id": "tv:the-mandalorian:s03e07",
-    "timeline_order": 349,
+    "timeline_order": 359,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6283,7 +6463,7 @@
   },
   {
     "id": "tv:the-mandalorian:s03e08",
-    "timeline_order": 350,
+    "timeline_order": 360,
     "media_type": "tv_episode",
     "series_id": "the-mandalorian",
     "series_title": "Star Wars: The Mandalorian",
@@ -6301,7 +6481,7 @@
   },
   {
     "id": "tv:ahsoka:s01e01",
-    "timeline_order": 351,
+    "timeline_order": 361,
     "media_type": "tv_episode",
     "series_id": "ahsoka",
     "series_title": "Star Wars: Ahsoka",
@@ -6319,7 +6499,7 @@
   },
   {
     "id": "tv:ahsoka:s01e02",
-    "timeline_order": 352,
+    "timeline_order": 362,
     "media_type": "tv_episode",
     "series_id": "ahsoka",
     "series_title": "Star Wars: Ahsoka",
@@ -6337,7 +6517,7 @@
   },
   {
     "id": "tv:ahsoka:s01e03",
-    "timeline_order": 353,
+    "timeline_order": 363,
     "media_type": "tv_episode",
     "series_id": "ahsoka",
     "series_title": "Star Wars: Ahsoka",
@@ -6355,7 +6535,7 @@
   },
   {
     "id": "tv:ahsoka:s01e04",
-    "timeline_order": 354,
+    "timeline_order": 364,
     "media_type": "tv_episode",
     "series_id": "ahsoka",
     "series_title": "Star Wars: Ahsoka",
@@ -6373,7 +6553,7 @@
   },
   {
     "id": "tv:ahsoka:s01e05",
-    "timeline_order": 355,
+    "timeline_order": 365,
     "media_type": "tv_episode",
     "series_id": "ahsoka",
     "series_title": "Star Wars: Ahsoka",
@@ -6391,7 +6571,7 @@
   },
   {
     "id": "tv:ahsoka:s01e06",
-    "timeline_order": 356,
+    "timeline_order": 366,
     "media_type": "tv_episode",
     "series_id": "ahsoka",
     "series_title": "Star Wars: Ahsoka",
@@ -6409,7 +6589,7 @@
   },
   {
     "id": "tv:ahsoka:s01e07",
-    "timeline_order": 357,
+    "timeline_order": 367,
     "media_type": "tv_episode",
     "series_id": "ahsoka",
     "series_title": "Star Wars: Ahsoka",
@@ -6427,7 +6607,7 @@
   },
   {
     "id": "tv:ahsoka:s01e08",
-    "timeline_order": 358,
+    "timeline_order": 368,
     "media_type": "tv_episode",
     "series_id": "ahsoka",
     "series_title": "Star Wars: Ahsoka",
@@ -6445,7 +6625,7 @@
   },
   {
     "id": "tv:skeleton-crew:s01e01",
-    "timeline_order": 359,
+    "timeline_order": 369,
     "media_type": "tv_episode",
     "series_id": "skeleton-crew",
     "series_title": "Star Wars: Skeleton Crew",
@@ -6463,7 +6643,7 @@
   },
   {
     "id": "tv:skeleton-crew:s01e02",
-    "timeline_order": 360,
+    "timeline_order": 370,
     "media_type": "tv_episode",
     "series_id": "skeleton-crew",
     "series_title": "Star Wars: Skeleton Crew",
@@ -6481,7 +6661,7 @@
   },
   {
     "id": "tv:skeleton-crew:s01e03",
-    "timeline_order": 361,
+    "timeline_order": 371,
     "media_type": "tv_episode",
     "series_id": "skeleton-crew",
     "series_title": "Star Wars: Skeleton Crew",
@@ -6499,7 +6679,7 @@
   },
   {
     "id": "tv:skeleton-crew:s01e04",
-    "timeline_order": 362,
+    "timeline_order": 372,
     "media_type": "tv_episode",
     "series_id": "skeleton-crew",
     "series_title": "Star Wars: Skeleton Crew",
@@ -6517,7 +6697,7 @@
   },
   {
     "id": "tv:skeleton-crew:s01e05",
-    "timeline_order": 363,
+    "timeline_order": 373,
     "media_type": "tv_episode",
     "series_id": "skeleton-crew",
     "series_title": "Star Wars: Skeleton Crew",
@@ -6535,7 +6715,7 @@
   },
   {
     "id": "tv:skeleton-crew:s01e06",
-    "timeline_order": 364,
+    "timeline_order": 374,
     "media_type": "tv_episode",
     "series_id": "skeleton-crew",
     "series_title": "Star Wars: Skeleton Crew",
@@ -6553,7 +6733,7 @@
   },
   {
     "id": "tv:skeleton-crew:s01e07",
-    "timeline_order": 365,
+    "timeline_order": 375,
     "media_type": "tv_episode",
     "series_id": "skeleton-crew",
     "series_title": "Star Wars: Skeleton Crew",
@@ -6571,7 +6751,7 @@
   },
   {
     "id": "tv:skeleton-crew:s01e08",
-    "timeline_order": 366,
+    "timeline_order": 376,
     "media_type": "tv_episode",
     "series_id": "skeleton-crew",
     "series_title": "Star Wars: Skeleton Crew",
@@ -6588,8 +6768,26 @@
     "notes": null
   },
   {
+    "id": "film:the-mandalorian-and-grogu",
+    "timeline_order": 377,
+    "media_type": "film",
+    "series_id": null,
+    "series_title": null,
+    "item_title": "The Mandalorian and Grogu",
+    "season_number": null,
+    "episode_number": null,
+    "date_label": "During or after 11 ABY",
+    "date_start_year": 11,
+    "date_start_era": "ABY",
+    "date_end_year": null,
+    "date_end_era": null,
+    "date_certainty": "on_or_after",
+    "source_url": "https://starwars.fandom.com/wiki/Star_Wars%3A_The_Mandalorian_and_Grogu",
+    "notes": "Wookieepedia gives a lower bound of 11 ABY; the exact year and upper bound are unspecified. Checked 2026-11-10."
+  },
+  {
     "id": "tv:resistance:s01e01",
-    "timeline_order": 367,
+    "timeline_order": 378,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6607,7 +6805,7 @@
   },
   {
     "id": "tv:resistance:s01e02",
-    "timeline_order": 368,
+    "timeline_order": 379,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6625,7 +6823,7 @@
   },
   {
     "id": "tv:resistance:s01e03",
-    "timeline_order": 369,
+    "timeline_order": 380,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6643,7 +6841,7 @@
   },
   {
     "id": "tv:resistance:s01e04",
-    "timeline_order": 370,
+    "timeline_order": 381,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6661,7 +6859,7 @@
   },
   {
     "id": "tv:resistance:s01e05",
-    "timeline_order": 371,
+    "timeline_order": 382,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6679,7 +6877,7 @@
   },
   {
     "id": "tv:resistance:s01e06",
-    "timeline_order": 372,
+    "timeline_order": 383,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6697,7 +6895,7 @@
   },
   {
     "id": "tv:resistance:s01e07",
-    "timeline_order": 373,
+    "timeline_order": 384,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6715,7 +6913,7 @@
   },
   {
     "id": "tv:resistance:s01e08",
-    "timeline_order": 374,
+    "timeline_order": 385,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6733,7 +6931,7 @@
   },
   {
     "id": "tv:resistance:s01e09",
-    "timeline_order": 375,
+    "timeline_order": 386,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6751,7 +6949,7 @@
   },
   {
     "id": "tv:resistance:s01e10",
-    "timeline_order": 376,
+    "timeline_order": 387,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6769,7 +6967,7 @@
   },
   {
     "id": "tv:resistance:s01e11",
-    "timeline_order": 377,
+    "timeline_order": 388,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6787,7 +6985,7 @@
   },
   {
     "id": "tv:resistance:s01e12",
-    "timeline_order": 378,
+    "timeline_order": 389,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6805,7 +7003,7 @@
   },
   {
     "id": "tv:resistance:s01e13",
-    "timeline_order": 379,
+    "timeline_order": 390,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6823,7 +7021,7 @@
   },
   {
     "id": "tv:resistance:s01e14",
-    "timeline_order": 380,
+    "timeline_order": 391,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6841,7 +7039,7 @@
   },
   {
     "id": "tv:resistance:s01e15",
-    "timeline_order": 381,
+    "timeline_order": 392,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6859,7 +7057,7 @@
   },
   {
     "id": "tv:resistance:s01e16",
-    "timeline_order": 382,
+    "timeline_order": 393,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6877,7 +7075,7 @@
   },
   {
     "id": "tv:resistance:s01e17",
-    "timeline_order": 383,
+    "timeline_order": 394,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6895,7 +7093,7 @@
   },
   {
     "id": "tv:resistance:s01e18",
-    "timeline_order": 384,
+    "timeline_order": 395,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6913,7 +7111,7 @@
   },
   {
     "id": "tv:resistance:s01e19",
-    "timeline_order": 385,
+    "timeline_order": 396,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6931,7 +7129,7 @@
   },
   {
     "id": "film:episode-vii",
-    "timeline_order": 386,
+    "timeline_order": 397,
     "media_type": "film",
     "series_id": null,
     "series_title": null,
@@ -6949,7 +7147,7 @@
   },
   {
     "id": "tv:resistance:s01e20",
-    "timeline_order": 387,
+    "timeline_order": 398,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6967,7 +7165,7 @@
   },
   {
     "id": "tv:resistance:s01e21",
-    "timeline_order": 388,
+    "timeline_order": 399,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -6985,7 +7183,7 @@
   },
   {
     "id": "tv:resistance:s02e01",
-    "timeline_order": 389,
+    "timeline_order": 400,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7003,7 +7201,7 @@
   },
   {
     "id": "film:episode-viii",
-    "timeline_order": 390,
+    "timeline_order": 401,
     "media_type": "film",
     "series_id": null,
     "series_title": null,
@@ -7021,7 +7219,7 @@
   },
   {
     "id": "tv:resistance:s02e02",
-    "timeline_order": 391,
+    "timeline_order": 402,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7039,7 +7237,7 @@
   },
   {
     "id": "tv:resistance:s02e03",
-    "timeline_order": 392,
+    "timeline_order": 403,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7057,7 +7255,7 @@
   },
   {
     "id": "tv:resistance:s02e04",
-    "timeline_order": 393,
+    "timeline_order": 404,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7075,7 +7273,7 @@
   },
   {
     "id": "tv:resistance:s02e05",
-    "timeline_order": 394,
+    "timeline_order": 405,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7093,7 +7291,7 @@
   },
   {
     "id": "tv:resistance:s02e06",
-    "timeline_order": 395,
+    "timeline_order": 406,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7111,7 +7309,7 @@
   },
   {
     "id": "tv:resistance:s02e07",
-    "timeline_order": 396,
+    "timeline_order": 407,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7129,7 +7327,7 @@
   },
   {
     "id": "tv:resistance:s02e08",
-    "timeline_order": 397,
+    "timeline_order": 408,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7147,7 +7345,7 @@
   },
   {
     "id": "tv:resistance:s02e09",
-    "timeline_order": 398,
+    "timeline_order": 409,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7165,7 +7363,7 @@
   },
   {
     "id": "tv:resistance:s02e10",
-    "timeline_order": 399,
+    "timeline_order": 410,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7183,7 +7381,7 @@
   },
   {
     "id": "tv:resistance:s02e11",
-    "timeline_order": 400,
+    "timeline_order": 411,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7201,7 +7399,7 @@
   },
   {
     "id": "tv:resistance:s02e12",
-    "timeline_order": 401,
+    "timeline_order": 412,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7219,7 +7417,7 @@
   },
   {
     "id": "tv:resistance:s02e13",
-    "timeline_order": 402,
+    "timeline_order": 413,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7237,7 +7435,7 @@
   },
   {
     "id": "tv:resistance:s02e14",
-    "timeline_order": 403,
+    "timeline_order": 414,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7255,7 +7453,7 @@
   },
   {
     "id": "tv:resistance:s02e15",
-    "timeline_order": 404,
+    "timeline_order": 415,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7273,7 +7471,7 @@
   },
   {
     "id": "tv:resistance:s02e16",
-    "timeline_order": 405,
+    "timeline_order": 416,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7291,7 +7489,7 @@
   },
   {
     "id": "tv:resistance:s02e17",
-    "timeline_order": 406,
+    "timeline_order": 417,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7309,7 +7507,7 @@
   },
   {
     "id": "tv:resistance:s02e18",
-    "timeline_order": 407,
+    "timeline_order": 418,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7327,7 +7525,7 @@
   },
   {
     "id": "tv:resistance:s02e19",
-    "timeline_order": 408,
+    "timeline_order": 419,
     "media_type": "tv_episode",
     "series_id": "resistance",
     "series_title": "Star Wars Resistance",
@@ -7345,7 +7543,7 @@
   },
   {
     "id": "film:episode-ix",
-    "timeline_order": 409,
+    "timeline_order": 420,
     "media_type": "film",
     "series_id": null,
     "series_title": null,

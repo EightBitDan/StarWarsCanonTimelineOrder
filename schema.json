@@ -36,7 +36,7 @@
         "date_start_era": { "anyOf": [{ "$ref": "#/$defs/era" }, { "type": "null" }] },
         "date_end_year": { "anyOf": [{ "$ref": "#/$defs/year" }, { "type": "null" }] },
         "date_end_era": { "anyOf": [{ "$ref": "#/$defs/era" }, { "type": "null" }] },
-        "date_certainty": { "enum": ["exact", "approximate", "range", "unknown"] },
+        "date_certainty": { "enum": ["exact", "approximate", "range", "on_or_after", "unknown"] },
         "source_url": { "type": ["string", "null"], "format": "uri" },
         "notes": { "anyOf": [{ "$ref": "#/$defs/text" }, { "type": "null" }] }
       },
@@ -73,11 +73,22 @@
             }
           },
           "else": {
-            "properties": {
-              "date_start_year": { "type": "integer" },
-              "date_start_era": { "type": "string" },
-              "date_end_year": { "type": "integer" },
-              "date_end_era": { "type": "string" }
+            "if": { "properties": { "date_certainty": { "const": "on_or_after" } } },
+            "then": {
+              "properties": {
+                "date_start_year": { "type": "integer" },
+                "date_start_era": { "type": "string" },
+                "date_end_year": { "type": "null" },
+                "date_end_era": { "type": "null" }
+              }
+            },
+            "else": {
+              "properties": {
+                "date_start_year": { "type": "integer" },
+                "date_start_era": { "type": "string" },
+                "date_end_year": { "type": "integer" },
+                "date_end_era": { "type": "string" }
+              }
             }
           }
         }

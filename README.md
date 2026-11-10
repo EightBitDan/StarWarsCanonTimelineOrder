@@ -1,6 +1,8 @@
 # Star Wars Mainline Canon Timeline Order
 
-A curated watch order for 397 television episodes and 12 films. Follow `timeline_order` from 1 to 409. Episodes from the same season can appear on either side of a film, and multiple entries can share the same in-universe year.
+Current version: **v2.1.0**.
+
+A curated watch order for 407 television episodes and 13 films. Follow `timeline_order` from 1 to 420. Episodes from the same season can appear on either side of a film, and multiple entries can share the same in-universe year.
 
 ## Files
 
@@ -30,11 +32,13 @@ All four files use the same 16 fields. Both JSON files follow [schema.json](sche
 | `date_start_era` | string or null | `BBY` (before the Battle of Yavin) or `ABY` (after the Battle of Yavin). |
 | `date_end_year` | integer or null | Year at the chronologically later endpoint. A single year uses the same value at both ends. |
 | `date_end_era` | string or null | Era of the later endpoint. |
-| `date_certainty` | string | `exact`, `approximate`, `range`, or `unknown`. |
+| `date_certainty` | string | `exact`, `approximate`, `range`, `on_or_after`, or `unknown`. |
 | `source_url` | string or null | Source for the entry's timeline placement, when supplied. |
 | `notes` | string or null | Additional context for the placement, when supplied. |
 
-An `exact` date identifies a single year. A tilde marks an `approximate` year or span. A `range` has explicit bounds, including spans across eras. For example, `36-35 BBY` starts at 36 BBY and ends at 35 BBY. For `0 BBY - 0 ABY`, both years are zero and the eras differ. An `unknown` date has nulls in all four endpoint fields.
+An `exact` date identifies a single year. A tilde marks an `approximate` year or span. A `range` has explicit bounds, including spans across eras. For example, `36-35 BBY` starts at 36 BBY and ends at 35 BBY. For `0 BBY - 0 ABY`, both years are zero and the eras differ. An `on_or_after` date supplies the earliest possible year and era in the start fields, with null end fields. An `unknown` date has nulls in all four endpoint fields.
+
+The ten Season 1 episodes of Maul - Shadow Lord use `~17 BBY`, matching the approximate placement in Wookieepedia's [Timeline of canon media](https://starwars.fandom.com/wiki/Timeline_of_canon_media). They follow the existing 18 BBY entries and precede Solo. The timeline marks their exact placement as uncertain. [The Mandalorian and Grogu](https://starwars.fandom.com/wiki/Star_Wars%3A_The_Mandalorian_and_Grogu) uses `During or after 11 ABY`, with `on_or_after` certainty, a start year of 11 ABY, and null end fields. It follows the existing New Republic entries and precedes Resistance. The record notes retain each source's qualification.
 
 ## Migrating from the six-field format
 
