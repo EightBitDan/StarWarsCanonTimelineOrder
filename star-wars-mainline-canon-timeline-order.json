@@ -5919,7 +5919,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s01e02",
@@ -5937,7 +5937,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s01e03",
@@ -5955,7 +5955,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s01e04",
@@ -5973,7 +5973,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s01e05",
@@ -5991,7 +5991,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s01e06",
@@ -6009,7 +6009,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s01e07",
@@ -6027,7 +6027,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s01e08",
@@ -6045,7 +6045,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s02e01",
@@ -6063,7 +6063,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s02e02",
@@ -6081,7 +6081,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s02e03",
@@ -6099,7 +6099,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s02e04",
@@ -6117,7 +6117,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:tales-of-the-empire:s01e03",
@@ -6128,14 +6128,14 @@
     "item_title": "The Path of Hate",
     "season_number": 1,
     "episode_number": 3,
-    "date_label": "9 ABY",
-    "date_start_year": 9,
+    "date_label": "7–9 ABY",
+    "date_start_year": 7,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "range",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Bounded estimate."
   },
   {
     "id": "tv:the-mandalorian:s02e05",
@@ -6153,7 +6153,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s02e06",
@@ -6171,7 +6171,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s02e07",
@@ -6189,7 +6189,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s02e08",
@@ -6207,7 +6207,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e01",
@@ -6225,7 +6225,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e02",
@@ -6243,7 +6243,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e03",
@@ -6261,7 +6261,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e04",
@@ -6279,7 +6279,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e05",
@@ -6297,7 +6297,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e06",
@@ -6315,7 +6315,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-book-of-boba-fett:s01e07",
@@ -6333,7 +6333,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published reference."
   },
   {
     "id": "tv:the-mandalorian:s03e01",
@@ -6351,7 +6351,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Supported inference."
   },
   {
     "id": "tv:the-mandalorian:s03e02",
@@ -6369,7 +6369,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Supported inference."
   },
   {
     "id": "tv:the-mandalorian:s03e03",
@@ -6387,7 +6387,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Supported inference."
   },
   {
     "id": "tv:the-mandalorian:s03e04",
@@ -6405,7 +6405,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Supported inference."
   },
   {
     "id": "tv:the-mandalorian:s03e05",
@@ -6423,7 +6423,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Supported inference."
   },
   {
     "id": "tv:the-mandalorian:s03e06",
@@ -6441,7 +6441,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Supported inference."
   },
   {
     "id": "tv:the-mandalorian:s03e07",
@@ -6459,7 +6459,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Supported inference."
   },
   {
     "id": "tv:the-mandalorian:s03e08",
@@ -6477,7 +6477,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Supported inference."
   },
   {
     "id": "tv:ahsoka:s01e01",
@@ -6495,7 +6495,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published anchor + inference."
   },
   {
     "id": "tv:ahsoka:s01e02",
@@ -6513,7 +6513,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published anchor + inference."
   },
   {
     "id": "tv:ahsoka:s01e03",
@@ -6531,7 +6531,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published anchor + inference."
   },
   {
     "id": "tv:ahsoka:s01e04",
@@ -6549,7 +6549,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published anchor + inference."
   },
   {
     "id": "tv:ahsoka:s01e05",
@@ -6567,7 +6567,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published anchor + inference."
   },
   {
     "id": "tv:ahsoka:s01e06",
@@ -6585,7 +6585,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published anchor + inference."
   },
   {
     "id": "tv:ahsoka:s01e07",
@@ -6603,7 +6603,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published anchor + inference."
   },
   {
     "id": "tv:ahsoka:s01e08",
@@ -6621,7 +6621,7 @@
     "date_end_era": "ABY",
     "date_certainty": "exact",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Published anchor + inference."
   },
   {
     "id": "tv:skeleton-crew:s01e01",
@@ -6632,14 +6632,14 @@
     "item_title": "This Could Be a Real Adventure",
     "season_number": 1,
     "episode_number": 1,
-    "date_label": "9 ABY",
+    "date_label": "~9 ABY",
     "date_start_year": 9,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "approximate",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Approximate."
   },
   {
     "id": "tv:skeleton-crew:s01e02",
@@ -6650,14 +6650,14 @@
     "item_title": "Way Way Out Past the Barrier",
     "season_number": 1,
     "episode_number": 2,
-    "date_label": "9 ABY",
+    "date_label": "~9 ABY",
     "date_start_year": 9,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "approximate",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Approximate."
   },
   {
     "id": "tv:skeleton-crew:s01e03",
@@ -6668,14 +6668,14 @@
     "item_title": "Very Interesting as an Astrogration Problem",
     "season_number": 1,
     "episode_number": 3,
-    "date_label": "9 ABY",
+    "date_label": "~9 ABY",
     "date_start_year": 9,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "approximate",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Approximate."
   },
   {
     "id": "tv:skeleton-crew:s01e04",
@@ -6686,14 +6686,14 @@
     "item_title": "Can't Say I Remember No At Attin",
     "season_number": 1,
     "episode_number": 4,
-    "date_label": "9 ABY",
+    "date_label": "~9 ABY",
     "date_start_year": 9,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "approximate",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Approximate."
   },
   {
     "id": "tv:skeleton-crew:s01e05",
@@ -6704,14 +6704,14 @@
     "item_title": "You Have a Lot to Learn About Pirates",
     "season_number": 1,
     "episode_number": 5,
-    "date_label": "9 ABY",
+    "date_label": "~9 ABY",
     "date_start_year": 9,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "approximate",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Approximate."
   },
   {
     "id": "tv:skeleton-crew:s01e06",
@@ -6722,14 +6722,14 @@
     "item_title": "Zero Friends Again",
     "season_number": 1,
     "episode_number": 6,
-    "date_label": "9 ABY",
+    "date_label": "~9 ABY",
     "date_start_year": 9,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "approximate",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Approximate."
   },
   {
     "id": "tv:skeleton-crew:s01e07",
@@ -6740,14 +6740,14 @@
     "item_title": "We're Gonna Be in So Much Trouble",
     "season_number": 1,
     "episode_number": 7,
-    "date_label": "9 ABY",
+    "date_label": "~9 ABY",
     "date_start_year": 9,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "approximate",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Approximate."
   },
   {
     "id": "tv:skeleton-crew:s01e08",
@@ -6758,14 +6758,14 @@
     "item_title": "The Real Good Guys",
     "season_number": 1,
     "episode_number": 8,
-    "date_label": "9 ABY",
+    "date_label": "~9 ABY",
     "date_start_year": 9,
     "date_start_era": "ABY",
     "date_end_year": 9,
     "date_end_era": "ABY",
-    "date_certainty": "exact",
+    "date_certainty": "approximate",
     "source_url": null,
-    "notes": null
+    "notes": "Date reliability: Approximate."
   },
   {
     "id": "film:the-mandalorian-and-grogu",
@@ -6776,14 +6776,14 @@
     "item_title": "The Mandalorian and Grogu",
     "season_number": null,
     "episode_number": null,
-    "date_label": "During or after 11 ABY",
-    "date_start_year": 11,
+    "date_label": "~14 ABY",
+    "date_start_year": 14,
     "date_start_era": "ABY",
-    "date_end_year": null,
-    "date_end_era": null,
-    "date_certainty": "on_or_after",
-    "source_url": "https://starwars.fandom.com/wiki/Star_Wars%3A_The_Mandalorian_and_Grogu",
-    "notes": "Wookieepedia gives a lower bound of 11 ABY; the exact year and upper bound are unspecified. Checked 2026-11-10."
+    "date_end_year": 14,
+    "date_end_era": "ABY",
+    "date_certainty": "approximate",
+    "source_url": null,
+    "notes": "Date reliability: Approximate, from creator-team discussion."
   },
   {
     "id": "tv:resistance:s01e01",

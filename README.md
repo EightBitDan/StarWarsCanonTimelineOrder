@@ -1,6 +1,6 @@
 # Star Wars Mainline Canon Timeline Order
 
-Current version: **v2.1.0**.
+Current version: **v2.1.1**.
 
 A curated watch order for 407 television episodes and 13 films. Follow `timeline_order` from 1 to 420. Episodes from the same season can appear on either side of a film, and multiple entries can share the same in-universe year.
 
@@ -38,7 +38,19 @@ All four files use the same 16 fields. Both JSON files follow [schema.json](sche
 
 An `exact` date identifies a single year. A tilde marks an `approximate` year or span. A `range` has explicit bounds, including spans across eras. For example, `36-35 BBY` starts at 36 BBY and ends at 35 BBY. For `0 BBY - 0 ABY`, both years are zero and the eras differ. An `on_or_after` date supplies the earliest possible year and era in the start fields, with null end fields. An `unknown` date has nulls in all four endpoint fields.
 
-The ten Season 1 episodes of Maul - Shadow Lord use `~17 BBY`, matching the approximate placement in Wookieepedia's [Timeline of canon media](https://starwars.fandom.com/wiki/Timeline_of_canon_media). They follow the existing 18 BBY entries and precede Solo. The timeline marks their exact placement as uncertain. [The Mandalorian and Grogu](https://starwars.fandom.com/wiki/Star_Wars%3A_The_Mandalorian_and_Grogu) uses `During or after 11 ABY`, with `on_or_after` certainty, a start year of 11 ABY, and null end fields. It follows the existing New Republic entries and precedes Resistance. The record notes retain each source's qualification.
+The ten Season 1 episodes of Maul - Shadow Lord use `~17 BBY`, matching the approximate placement in Wookieepedia's [Timeline of canon media](https://starwars.fandom.com/wiki/Timeline_of_canon_media). They follow the existing 18 BBY entries and precede Solo. The timeline marks their exact placement as uncertain.
+
+The November 14, 2026 timeline update uses the supplied dates and reliability labels below. Reliability is stored in `notes`; `exact` identifies a single year and does not imply that every placement has the same evidential support. The curated viewing order and stable IDs are preserved.
+
+| Media | Date | Date reliability |
+| --- | --- | --- |
+| Tales of the Empire: The Path of Hate | 7–9 ABY | Bounded estimate |
+| The Mandalorian S1–S2 | 9 ABY | Published reference |
+| The Book of Boba Fett | 9 ABY | Published reference |
+| The Mandalorian S3 | 9 ABY | Supported inference |
+| Ahsoka S1 | 9 ABY | Published anchor + inference |
+| Skeleton Crew S1 | ~9 ABY | Approximate |
+| The Mandalorian and Grogu | ~14 ABY | Approximate, from creator-team discussion |
 
 ## Migrating from the six-field format
 
