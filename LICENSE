@@ -1,0 +1,43 @@
+# Licensing
+
+Copyright (c) 2026 EightBitDan.
+
+This repository uses separate licences for its original data and software.
+These grants apply only to rights held by the contributors.
+
+## Original timeline data and writing — CC BY 4.0
+
+The original selection and arrangement of the timeline, original episode and
+film descriptions, original research commentary and project README are licensed
+under the Creative Commons Attribution 4.0 International License.
+This covers the original contributions in the JSON, lite JSON, CSV and local
+workbook exports, and the original writing in research/date-provenance.json.
+It does not claim exclusive rights over facts or public-domain material.
+
+Full terms: LICENSES/CC-BY-4.0.txt
+Canonical licence: https://creativecommons.org/licenses/by/4.0/
+
+Suggested credit: Star Wars Mainline Canon Timeline Order by EightBitDan,
+licensed under CC BY 4.0. Source:
+https://github.com/EightBitDan/StarWarsCanonTimelineOrder
+If you modify the material, indicate your changes and retain earlier notices.
+
+## Original software — MIT
+
+The original JSON Schema, scripts, skill instructions and their accompanying
+software documentation are licensed under the MIT License.
+
+Full terms: LICENSES/MIT.txt
+
+## Third-party rights
+
+These licences do not grant rights to Star Wars names, characters, stories,
+trademarks, artwork, screenshots, film or episode imagery, or other third-party
+material. Those rights remain with Lucasfilm, Disney and their respective owners.
+Third-party text and datasets retain their applicable terms and attribution;
+links and source citations do not relicense their contents. Quoted source
+material, if present in research records, is excluded from these grants.
+
+No endorsement or affiliation with Lucasfilm, Disney or any cited source is
+implied. The material is provided without warranties under the applicable
+licence terms.

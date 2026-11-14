@@ -2,7 +2,7 @@
 
 A curated chronological watch order for Star Wars films and television, with stable IDs, structured dates, and spoiler-free descriptions for watchlists and timeline apps.
 
-**v2.2.0** · **420 entries** · **13 films** · **407 episodes from 15 series**
+**v2.2.1** · **420 entries** · **13 films** · **407 episodes from 15 series**
 
 ## Get the data
 
@@ -113,6 +113,14 @@ for (const { timeline_order, date_label, item_title } of timeline) {
 - For date changes, follow the [timeline-dates skill](skills/timeline-dates/SKILL.md). Keep evidence and qualifications alongside the affected records.
 - For new entries and description changes, follow the [timeline-notes skill](skills/timeline-notes/SKILL.md). Validate with `node skills/timeline-notes/scripts/check-notes.mjs` and review each description for spoilers.
 - Validate both JSON files against the schema. Compare IDs, order, and typed field values across JSON, lite JSON, CSV, and the local workbook.
+
+## Licence and reuse
+
+The original timeline compilation, descriptions and research writing are licensed under **[CC BY 4.0](LICENSES/CC-BY-4.0.txt)**. Credit EightBitDan, link to this repository and the licence, and indicate any changes. Original software, schema and skill instructions use the **[MIT License](LICENSES/MIT.txt)**. See [LICENSE](LICENSE) for the precise scope and third-party exclusions.
+
+Suggested credit: “Star Wars Mainline Canon Timeline Order by EightBitDan, licensed under CC BY 4.0.” Include the repository URL, licence link and a description of your changes when applicable.
+
+These grants cover only the contributors' rights. Star Wars intellectual property and third-party source material remain subject to their owners' rights and applicable terms.
 
 ---
 
