@@ -38,7 +38,7 @@
         "date_end_era": { "anyOf": [{ "$ref": "#/$defs/era" }, { "type": "null" }] },
         "date_certainty": { "enum": ["exact", "approximate", "range", "on_or_after", "unknown"] },
         "source_url": { "type": ["string", "null"], "format": "uri" },
-        "notes": { "anyOf": [{ "$ref": "#/$defs/text" }, { "type": "null" }] }
+        "notes": { "type": "string", "minLength": 1, "maxLength": 200, "pattern": "\\S", "description": "Spoiler-free film or episode premise, at most 200 characters including spaces and punctuation." }
       },
       "allOf": [
         {

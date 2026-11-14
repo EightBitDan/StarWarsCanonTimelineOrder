@@ -33,9 +33,9 @@ Use literal ASCII `~`, hyphen `-`, and ordinary spaces. No backslash belongs in 
 
 Keep numeric start/end fields and eras consistent with the label. A single-year label has equal populated endpoints. A range records chronologically earlier/later endpoints. The label's syntax describes the numerical placement; reliability and evidence are separate.
 
-For open-ended or unresolved dates, retain a defensible provisional year with a leading tilde when supported by the existing editorial placement. State the actual lower bound, unknown year, relative-order constraint and inference in `notes`. Never describe the provisional year as confirmed. If no defensible estimate or bounds exist, obtain clarification instead of inventing a year or adding an unsupported label format.
+For open-ended or unresolved dates, retain a defensible provisional year with a leading tilde when supported by the existing editorial placement. State the actual lower bound, unknown year, relative-order constraint and inference in `research/date-provenance.json`, keyed by stable entry ID. Keep `notes` reserved for the spoiler-free description of at most 200 characters required by the sibling `timeline-notes` skill. Never describe the provisional year as confirmed. If no defensible estimate or bounds exist, obtain clarification instead of inventing a year or adding an unsupported label format.
 
-For Resolve, `~17 BBY` is a provisional estimate inherited from its curated placement after Maul, not an independently established year. Notes must preserve the 19 BBY prologue and the official after-Chapter-7 constraint. For later Bad Batch entries, `~18 BBY` is an approximate placement; notes retain the during-or-after-18 evidence limitation.
+For Resolve, `~17 BBY` is a provisional estimate inherited from its curated placement after Maul, not an independently established year. The date provenance must preserve the 19 BBY prologue and the official after-Chapter-7 constraint. For later Bad Batch entries, `~18 BBY` is an approximate placement; the date provenance retains the during-or-after-18 evidence limitation.
 
 ## Synchronization and verification
 
@@ -49,4 +49,4 @@ Validate every label against:
 ^(?:~?[0-9]+ (?:BBY|ABY)|[0-9]+~[0-9]+ (?:BBY|ABY)|~[0-9]+-[0-9]+ (?:BBY|ABY)|0 BBY - 0 ABY)$
 ```
 
-Also verify endpoint chronology, certainty and matching export values; a regex alone does not prove the date is correct. Run the viewer build and existing checks. Preserve uncertainty and source qualifications in notes and document materially changed conventions in the project README.
+Also verify endpoint chronology, certainty and matching export values; a regex alone does not prove the date is correct. Run the viewer build and existing checks. Preserve uncertainty and source qualifications in the date provenance file and document materially changed conventions in the project README.
