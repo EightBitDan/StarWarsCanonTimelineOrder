@@ -1,1 +1,5 @@
 *.xlsx
+assets/
+scripts/
+skills/
+AGENTS.md

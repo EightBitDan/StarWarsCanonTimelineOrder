@@ -1,35 +1,58 @@
 # Star Wars Mainline Canon Timeline Order
 
-A curated chronological watch order for Star Wars films and television, with stable IDs, structured dates, and spoiler-free descriptions for watchlists and timeline apps.
+A chronological watch order for Star Wars films and television. Explore the galaxy's history with in-universe dates and spoiler-free descriptions.
 
-**v2.2.1** · **420 entries** · **13 films** · **407 episodes from 15 series**
+<!-- generated:stats:start -->
+**v2.2.2** · **420 entries** · **13 films** · **407 episodes from 15 series**
+<!-- generated:stats:end -->
 
-## Get the data
+**[Explore Galactic Atlas](https://galactic-atlass.vercel.app/)** · **[Get the spreadsheet-ready CSV](star-wars-mainline-canon-timeline-order.csv)**
 
-| File | Use it for |
-| --- | --- |
-| [JSON](star-wars-mainline-canon-timeline-order.json) | Readable, structured data for apps and scripts. |
-| [Lite JSON](star-wars-mainline-canon-timeline-order-lite.json) | The same records in a compact, single-line array. |
-| [CSV](star-wars-mainline-canon-timeline-order.csv) | Importing into Excel, Google Sheets, or other data tools. |
-| [JSON Schema](schema.json) | Validating records against the v2 data model. |
-| [Date provenance](research/date-provenance.json) | Chronology evidence and qualifications, keyed by entry ID. Contains spoilers. |
+## Quick preview
 
-All data files use UTF-8 and the same 16 fields. Both JSON files contain identical records; the CSV has one header row followed by one row per entry. A local Excel authoring workbook is excluded from Git by the repository's `*.xlsx` rule.
+Start here: these are the first 20 entries in the watch order. Films and individual episodes are interleaved, so episode numbers can appear outside broadcast order.
 
-## Follow the watch order
+<!-- generated:preview:start -->
+| # | Film / series | Episode | Date |
+| --- | --- | --- | --- |
+| 1 | The Acolyte | S01E07 · Choice | 148 BBY |
+| 2 | The Acolyte | S01E03 · Destiny | 148 BBY |
+| 3 | The Acolyte | S01E01 · Lost / Found | 132 BBY |
+| 4 | The Acolyte | S01E02 · Revenge / Justice | 132 BBY |
+| 5 | The Acolyte | S01E04 · Day | 132 BBY |
+| 6 | The Acolyte | S01E05 · Night | 132 BBY |
+| 7 | The Acolyte | S01E06 · Teach / Corrupt | 132 BBY |
+| 8 | The Acolyte | S01E08 · The Acolyte | 132 BBY |
+| 9 | Tales of the Jedi | S01E02 · Justice | ~68-58 BBY |
+| 10 | Tales of the Underworld | S01E04 · The Good Life | ~58-48 BBY |
+| 11 | Tales of the Jedi | S01E03 · Choices | ~50-48 BBY |
+| 12 | Tales of the Underworld | S01E05 · A Good Turn | ~40 BBY |
+| 13 | Tales of the Jedi | S01E01 · Life and Death | 36~35 BBY |
+| 14 | Tales of the Underworld | S01E06 · One Good Deed | ~33 BBY |
+| 15 | Episode I - The Phantom Menace | Film | 32 BBY |
+| 16 | Tales of the Jedi | S01E04 · The Sith Lord | 32 BBY |
+| 17 | Episode II - Attack of the Clones | Film | 22 BBY |
+| 18 | The Clone Wars | S02E16 · Cat and Mouse | 22 BBY |
+| 19 | The Clone Wars | S01E16 · The Hidden Enemy | 22 BBY |
+| 20 | The Clone Wars | Film | 22 BBY |
+<!-- generated:preview:end -->
 
-**Sort by `timeline_order`, ascending.** Positions run from 1 to 420. Each entry represents one film or one television episode; episodes from a season may be separated by other stories.
+The full order continues through **The Rise of Skywalker**. A leading `~` marks an approximate date; intervals preserve uncertainty about a story's placement.
 
-Use `id` to save watch progress or join records across versions. IDs identify stories independently of their position, so a revised order does not detach progress from an entry. For example: `film:episode-i` or `tv:tales-of-the-jedi:s01e02`.
+## Start watching
 
-Dates generally describe the main narrative. Flashbacks, prologues, epilogues, overlapping events, and uncertain placements are explained in the [date provenance](research/date-provenance.json). Within an uncertain interval, a viewing position is a curated choice rather than proof of an exact date. Sorting numerically by year will not reproduce the intended watch order.
+- **Browse and track your progress:** open [Galactic Atlas](https://galactic-atlass.vercel.app/) to explore the full timeline, view spoiler-free descriptions and save watched entries in your browser.
+- **Use your own watchlist:** import the [CSV](star-wars-mainline-canon-timeline-order.csv) into Excel or Google Sheets. Follow the rows in order, from position 1 onward.
+- **Build something with the data:** use the [JSON](star-wars-mainline-canon-timeline-order.json) and the [developer guide below](#for-developers).
 
-Every `notes` value is an original, spoiler-free premise of at most 200 characters, including spaces and punctuation. Descriptions introduce the situation without revealing the outcome. Episode premises were checked against [TVmaze's episode listings](https://www.tvmaze.com/); provider numbering is reconciled to this dataset's stable IDs.
+This is a chronological viewing order. It can introduce events before their original on-screen reveal; the short descriptions themselves avoid plot spoilers. Each row represents one film or one episode.
+
+## What's included
+
+The nine Skywalker saga films, **The Clone Wars** film, **Solo**, **Rogue One**, and **The Mandalorian and Grogu**, plus episodes from 15 series:
 
 <details>
-<summary><strong>What's included</strong></summary>
-
-The nine Skywalker saga films, The Clone Wars film, Solo, Rogue One, and The Mandalorian and Grogu, plus episodes from:
+<summary>See the included series</summary>
 
 - The Acolyte
 - Tales of the Jedi
@@ -47,29 +70,45 @@ The nine Skywalker saga films, The Clone Wars film, Solo, Rogue One, and The Man
 - Skeleton Crew
 - Resistance
 
-Coverage is a curated selection of mainline screen stories, not a catalogue of every canon work.
-
 </details>
 
-## Understand the dates
+Coverage is a curated selection of mainline screen stories. Books, comics, games and other screen titles are outside this watchlist's scope.
 
-**BBY** means before the Battle of Yavin; **ABY** means after it. `date_label` is the display value. Numeric endpoints support filtering and analysis without parsing that text.
+## Understanding the dates
 
-| Meaning | Permitted examples |
+**BBY** means before the Battle of Yavin, the battle at the end of **A New Hope**. **ABY** means after it.
+
+| Date | How to read it |
 | --- | --- |
-| Single year | `10 BBY` · `10 ABY` |
-| Approximate year | `~10 BBY` · `~10 ABY` |
-| Bounded interval | `19~18 BBY` · `7~9 ABY` |
-| Approximate interval | `~68-58 BBY` · `~9-11 ABY` |
-| Yavin transition | `0 BBY - 0 ABY` |
+| `10 BBY` or `10 ABY` | A single year before or after the Battle of Yavin. |
+| `~10 BBY` or `~10 ABY` | Approximately that year. |
+| `19~18 BBY` or `7~9 ABY` | A bounded interval, running from the earlier year to the later year. |
+| `~68-58 BBY` or `~9-11 ABY` | An approximate interval. |
+| `0 BBY - 0 ABY` | The transition across the Battle of Yavin. |
 
-Labels use ASCII `~`, ASCII hyphens, and ordinary spaces. Qualifications belong in the date provenance file. Start and end fields represent the chronologically earlier and later endpoints: `19~18 BBY` starts at 19 BBY and ends at 18 BBY. A single-year label uses the same year and era at both ends.
+Dates generally describe the main narrative. Stories with flashbacks, prologues or epilogues may span other periods too. Within an uncertain interval, the viewing position is a curated choice. Follow the listed order rather than sorting by year.
 
-`date_certainty` describes the date representation, not the strength of its evidence. An `exact` value names a single year; it does not mean every source independently confirms it. Source attributions, inferred bounds, provisional estimates, and conflicting references are documented through `source_url` and the date provenance file. Some print references are cited through secondary sources, as noted there.
+Detailed evidence, conflicting references and placement qualifications are preserved separately in the [date provenance](research/date-provenance.json). **That research file contains spoilers.**
 
-## Data model
+## For developers
 
-The [schema](schema.json) uses JSON Schema Draft 2020-12. All 16 fields are required; nullable fields use JSON `null`, not the string `"n/a"`.
+### Downloads
+
+| File | Use it for |
+| --- | --- |
+| [JSON](star-wars-mainline-canon-timeline-order.json) | Readable, structured data for apps and scripts. |
+| [Lite JSON](star-wars-mainline-canon-timeline-order-lite.json) | The same records in a compact, single-line array. |
+| [CSV](star-wars-mainline-canon-timeline-order.csv) | Importing into spreadsheets and other data tools. |
+| [JSON Schema](schema.json) | Validating records against the v2 data model. |
+| [Date provenance](research/date-provenance.json) | Chronology evidence keyed by stable entry ID; contains spoilers. |
+
+All exports use UTF-8 and the same 16 fields. Both JSON files contain identical records; CSV has one header row followed by one row per entry. A local Excel authoring workbook is excluded from Git by the `*.xlsx` rule.
+
+Sort by `timeline_order`, ascending. Use `id` to save progress or join records across versions: an ID identifies a story independently of its viewing position. Examples: `film:episode-i` and `tv:tales-of-the-jedi:s01e02`.
+
+### Data model
+
+The [schema](schema.json) uses JSON Schema Draft 2020-12. All 16 fields are required; nullable fields use JSON `null`.
 
 | Field | JSON type | Meaning |
 | --- | --- | --- |
@@ -79,18 +118,22 @@ The [schema](schema.json) uses JSON Schema Draft 2020-12. All 16 fields are requ
 | `series_id`, `series_title` | string or null | Series identifier and display title; null for films. |
 | `item_title` | string | Episode name or full film title. |
 | `season_number`, `episode_number` | integer or null | Episode coordinates; null for films. |
-| `date_label` | string | In-universe date in the formats above. |
+| `date_label` | string | Display date in the formats above. |
 | `date_start_year`, `date_end_year` | integer or null | Nonnegative years at the interval's endpoints. |
 | `date_start_era`, `date_end_era` | string or null | `BBY` or `ABY` for each endpoint. |
 | `date_certainty` | string | `exact`, `approximate`, or `range` in the current dataset. The schema also supports `on_or_after` and `unknown`. |
-| `source_url` | string or null | Supporting source for the placement. |
-| `notes` | string | Spoiler-free film or episode premise, at most 200 characters. |
+| `source_url` | string or null | Supporting source for the timeline placement. |
+| `notes` | string | Original spoiler-free film or episode premise, at most 200 characters. |
+
+`date_certainty` describes the date representation, not the strength of its evidence. `exact` identifies a single year; supporting sources and qualifications remain in `source_url` and the date provenance file. Some print references were checked through secondary sources, as documented there. Episode premises were checked against [TVmaze's listings](https://www.tvmaze.com/), with provider numbering reconciled to the stable IDs.
+
+Start and end fields represent chronologically earlier and later endpoints. For example, `19~18 BBY` starts at 19 BBY and ends at 18 BBY. A single-year label uses the same year and era at both ends. Labels use ASCII `~`, ASCII hyphens and ordinary spaces.
 
 When importing CSV, convert populated integer fields to numbers and empty fields to nulls. In Excel, use numeric cells for integers and blank cells for missing values.
 
-## Use it in JavaScript
+### JavaScript example
 
-Run from the repository directory with Node.js; no dependencies are required.
+Run from the repository directory as a Node.js ES module, such as `watch-order.mjs`. No dependencies are required.
 
 ```js
 import { readFileSync } from 'node:fs';
@@ -106,19 +149,20 @@ for (const { timeline_order, date_label, item_title } of timeline) {
 }
 ```
 
-## Maintain the timeline
+## Contributing
 
-- Preserve existing IDs when correcting titles, dates, or positions. Give new stories unique IDs.
-- Keep viewing positions consecutive from 1 and export every format in that order.
-- For date changes, follow the [timeline-dates skill](skills/timeline-dates/SKILL.md). Keep evidence and qualifications alongside the affected records.
-- For new entries and description changes, follow the [timeline-notes skill](skills/timeline-notes/SKILL.md). Validate with `node skills/timeline-notes/scripts/check-notes.mjs` and review each description for spoilers.
-- Validate both JSON files against the schema. Compare IDs, order, and typed field values across JSON, lite JSON, CSV, and the local workbook.
+Corrections are welcome. [Open an issue](https://github.com/EightBitDan/StarWarsCanonTimelineOrder/issues) with the film or episode, the proposed correction and a supporting source. For uncertain placements, explain what the evidence establishes and what remains inferred.
+
+When updating the data:
+
+- Preserve existing IDs and keep viewing positions consecutive from 1.
+- Validate both JSON exports against the schema and compare typed values across JSON, lite JSON, CSV and the local workbook. Synchronize Galactic Atlas when its snapshot is in scope.
 
 ## Licence and reuse
 
-The original timeline compilation, descriptions and research writing are licensed under **[CC BY 4.0](LICENSES/CC-BY-4.0.txt)**. Credit EightBitDan, link to this repository and the licence, and indicate any changes. Original software, schema and skill instructions use the **[MIT License](LICENSES/MIT.txt)**. See [LICENSE](LICENSE) for the precise scope and third-party exclusions.
+The original timeline compilation, descriptions, research writing and preview artwork use **[CC BY 4.0](LICENSES/CC-BY-4.0.txt)**. Original software, schema and skill instructions use the **[MIT License](LICENSES/MIT.txt)**. See [LICENSE](LICENSE) for the scope and third-party exclusions.
 
-Suggested credit: “Star Wars Mainline Canon Timeline Order by EightBitDan, licensed under CC BY 4.0.” Include the repository URL, licence link and a description of your changes when applicable.
+Suggested credit: “Star Wars Mainline Canon Timeline Order by EightBitDan, licensed under CC BY 4.0.” Include the [repository URL](https://github.com/EightBitDan/StarWarsCanonTimelineOrder), [licence link](https://creativecommons.org/licenses/by/4.0/) and an indication of any changes.
 
 These grants cover only the contributors' rights. Star Wars intellectual property and third-party source material remain subject to their owners' rights and applicable terms.
 
