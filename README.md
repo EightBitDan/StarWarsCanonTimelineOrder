@@ -1,6 +1,6 @@
 # Star Wars Mainline Canon Timeline Order
 
-Current version: **v2.1.1**.
+Current version: **v2.1.2**.
 
 A curated watch order for 407 television episodes and 13 films. Follow `timeline_order` from 1 to 420. Episodes from the same season can appear on either side of a film, and multiple entries can share the same in-universe year.
 
@@ -51,6 +51,14 @@ The November 14, 2026 timeline update uses the supplied dates and reliability la
 | Ahsoka S1 | 9 ABY | Published anchor + inference |
 | Skeleton Crew S1 | ~9 ABY | Approximate |
 | The Mandalorian and Grogu | ~14 ABY | Approximate, from creator-team discussion |
+
+## November 14 audit corrections
+
+The audit widens Justice to `~68-58 BBY`, early Bad Batch Season 2 to `19~18 BBY`, and later Bad Batch episodes to `~18 BBY`. The Ventress Tales trilogy uses the latter estimate and now precedes The Harbinger. Resolve follows the Maul season as a curated viewing choice; its main-story label is `~17 BBY`, a provisional editorial estimate rather than an established year. Its funeral prologue remains 19 BBY in the notes. The official ordering constraint establishes only that the main encounter follows Chapter 7, not necessarily the entire season. Notes preserve open-ended bounds and unresolved dates; date labels follow [the strict date skill](skills/timeline-dates/SKILL.md).
+
+Both parts of Resistance's The Escape now use `34 ABY`, prioritizing Timelines while documenting the older 35 ABY reference. Other defensible main-story labels remain, with provenance and qualifications for estimates, flashbacks, overlaps and epilogues. Cad Bane dates and the film's `~14 ABY` remain provisional. The unresolved Yavin calendar convention is not changed. Stable IDs are preserved and viewing positions are renumbered consecutively.
+
+The audit's printed-reference attributions were often checked secondarily; `source_url` and `notes` distinguish those from direct official evidence. Date labels generally describe the main narrative rather than every depicted scene. Notes identify multi-period stories such as Practice Makes Perfect, Solo and the animated finales.
 
 ## Migrating from the six-field format
 

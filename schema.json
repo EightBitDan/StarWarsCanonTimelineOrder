@@ -31,7 +31,7 @@
         "item_title": { "$ref": "#/$defs/text" },
         "season_number": { "anyOf": [{ "$ref": "#/$defs/positiveInteger" }, { "type": "null" }] },
         "episode_number": { "anyOf": [{ "$ref": "#/$defs/positiveInteger" }, { "type": "null" }] },
-        "date_label": { "$ref": "#/$defs/text", "description": "Human-readable in-universe date." },
+        "date_label": { "$ref": "#/$defs/text", "pattern": "^(?:~?[0-9]+ (?:BBY|ABY)|[0-9]+~[0-9]+ (?:BBY|ABY)|~[0-9]+-[0-9]+ (?:BBY|ABY)|0 BBY - 0 ABY)$", "description": "Strict in-universe date syntax; estimates use ASCII ~ and approximate ranges use ASCII hyphen." },
         "date_start_year": { "anyOf": [{ "$ref": "#/$defs/year" }, { "type": "null" }] },
         "date_start_era": { "anyOf": [{ "$ref": "#/$defs/era" }, { "type": "null" }] },
         "date_end_year": { "anyOf": [{ "$ref": "#/$defs/year" }, { "type": "null" }] },
