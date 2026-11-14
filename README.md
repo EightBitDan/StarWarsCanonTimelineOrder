@@ -1,73 +1,115 @@
 # Star Wars Mainline Canon Timeline Order
 
-Current version: **v2.1.2**.
+A curated chronological watch order for Star Wars films and television, with stable IDs, structured dates, and source notes for watchlists and timeline apps.
 
-A curated watch order for 407 television episodes and 13 films. Follow `timeline_order` from 1 to 420. Episodes from the same season can appear on either side of a film, and multiple entries can share the same in-universe year.
+**v2.1.3** · **420 entries** · **13 films** · **407 episodes from 15 series**
 
-## Files
+## Get the data
 
-| Format | Contents |
+| File | Use it for |
 | --- | --- |
-| [CSV](star-wars-mainline-canon-timeline-order.csv) | UTF-8, with one header row and one record per entry. |
-| [JSON](star-wars-mainline-canon-timeline-order.json) | Formatted UTF-8 array of timeline entries. |
-| [Lite JSON](star-wars-mainline-canon-timeline-order-lite.json) | The same array on one line, with whitespace inside strings preserved. |
-| `star-wars-mainline-canon-timeline-order.xlsx` | Local Excel authoring workbook. The repository's `*.xlsx` rule excludes it from Git. |
+| [JSON](star-wars-mainline-canon-timeline-order.json) | Readable, structured data for apps and scripts. |
+| [Lite JSON](star-wars-mainline-canon-timeline-order-lite.json) | The same records in a compact, single-line array. |
+| [CSV](star-wars-mainline-canon-timeline-order.csv) | Importing into Excel, Google Sheets, or other data tools. |
+| [JSON Schema](schema.json) | Validating records against the v2 data model. |
 
-## Schema v2
+All data files use UTF-8 and the same 16 fields. Both JSON files contain identical records; the CSV has one header row followed by one row per entry. A local Excel authoring workbook is excluded from Git by the repository's `*.xlsx` rule.
 
-All four files use the same 16 fields. Both JSON files follow [schema.json](schema.json). JSON stores integers as numbers and missing values as `null`. Excel uses numeric cells and blank cells respectively. When reading the CSV, parse populated integer fields as numbers and empty fields as nulls.
+## Follow the watch order
 
-| Field | Type in JSON | Meaning |
+**Sort by `timeline_order`, ascending.** Positions run from 1 to 420. Each entry represents one film or one television episode; episodes from a season may be separated by other stories.
+
+Use `id` to save watch progress or join records across versions. IDs identify stories independently of their position, so a revised order does not detach progress from an entry. For example: `film:episode-i` or `tv:tales-of-the-jedi:s01e02`.
+
+Dates generally describe the main narrative. Flashbacks, prologues, epilogues, overlapping events, and uncertain placements are explained in `notes`. Within an uncertain interval, a viewing position is a curated choice rather than proof of an exact date. Sorting numerically by year will not reproduce the intended watch order.
+
+<details>
+<summary><strong>What's included</strong></summary>
+
+The nine Skywalker saga films, The Clone Wars film, Solo, Rogue One, and The Mandalorian and Grogu, plus episodes from:
+
+- The Acolyte
+- Tales of the Jedi
+- Tales of the Empire
+- Tales of the Underworld
+- The Clone Wars
+- The Bad Batch
+- Maul – Shadow Lord
+- Obi-Wan Kenobi
+- Andor
+- Rebels
+- The Mandalorian
+- The Book of Boba Fett
+- Ahsoka
+- Skeleton Crew
+- Resistance
+
+Coverage is a curated selection of mainline screen stories, not a catalogue of every canon work.
+
+</details>
+
+## Understand the dates
+
+**BBY** means before the Battle of Yavin; **ABY** means after it. `date_label` is the display value. Numeric endpoints support filtering and analysis without parsing that text.
+
+| Meaning | Permitted examples |
+| --- | --- |
+| Single year | `10 BBY` · `10 ABY` |
+| Approximate year | `~10 BBY` · `~10 ABY` |
+| Bounded interval | `19~18 BBY` · `7~9 ABY` |
+| Approximate interval | `~68-58 BBY` · `~9-11 ABY` |
+| Yavin transition | `0 BBY - 0 ABY` |
+
+Labels use ASCII `~`, ASCII hyphens, and ordinary spaces. Qualifications belong in `notes`, not in the label. Start and end fields represent the chronologically earlier and later endpoints: `19~18 BBY` starts at 19 BBY and ends at 18 BBY. A single-year label uses the same year and era at both ends.
+
+`date_certainty` describes the date representation, not the strength of its evidence. An `exact` value names a single year; it does not mean every source independently confirms it. Source attributions, inferred bounds, provisional estimates, and conflicting references are documented through `source_url` and `notes`. Some print references are cited through secondary sources, as noted in the records.
+
+## Data model
+
+The [schema](schema.json) uses JSON Schema Draft 2020-12. All 16 fields are required; nullable fields use JSON `null`, not the string `"n/a"`.
+
+| Field | JSON type | Meaning |
 | --- | --- | --- |
-| `id` | string | Stable identifier for an entry, such as `tv:tales-of-the-jedi:s01e02`. Use it to save a watchlist or join records across versions. |
-| `timeline_order` | integer | One-based watch position. Sort ascending to recover the curated sequence. |
+| `id` | string | Stable story identifier. |
+| `timeline_order` | integer | One-based position in the curated watch order. |
 | `media_type` | string | `film` or `tv_episode`. |
-| `series_id` | string or null | Stable identifier shared by episodes of a series. Null for films. |
-| `series_title` | string or null | Display title of the series. Null for films. |
-| `item_title` | string | Episode name for TV or full film title. |
-| `season_number` | integer or null | TV season, starting at 1. Null for films. |
-| `episode_number` | integer or null | Episode within that season, starting at 1. Null for films. |
-| `date_label` | string | Original in-universe date text for display. |
-| `date_start_year` | integer or null | Year at the chronologically earlier endpoint, expressed as a nonnegative number. |
-| `date_start_era` | string or null | `BBY` (before the Battle of Yavin) or `ABY` (after the Battle of Yavin). |
-| `date_end_year` | integer or null | Year at the chronologically later endpoint. A single year uses the same value at both ends. |
-| `date_end_era` | string or null | Era of the later endpoint. |
-| `date_certainty` | string | `exact`, `approximate`, `range`, `on_or_after`, or `unknown`. |
-| `source_url` | string or null | Source for the entry's timeline placement, when supplied. |
-| `notes` | string or null | Additional context for the placement, when supplied. |
+| `series_id`, `series_title` | string or null | Series identifier and display title; null for films. |
+| `item_title` | string | Episode name or full film title. |
+| `season_number`, `episode_number` | integer or null | Episode coordinates; null for films. |
+| `date_label` | string | In-universe date in the formats above. |
+| `date_start_year`, `date_end_year` | integer or null | Nonnegative years at the interval's endpoints. |
+| `date_start_era`, `date_end_era` | string or null | `BBY` or `ABY` for each endpoint. |
+| `date_certainty` | string | `exact`, `approximate`, or `range` in the current dataset. The schema also supports `on_or_after` and `unknown`. |
+| `source_url` | string or null | Supporting source for the placement. |
+| `notes` | string or null | Evidence, uncertainty, and narrative context. |
 
-An `exact` date identifies a single year. A tilde marks an `approximate` year or span. A `range` has explicit bounds, including spans across eras. For example, `36-35 BBY` starts at 36 BBY and ends at 35 BBY. For `0 BBY - 0 ABY`, both years are zero and the eras differ. An `on_or_after` date supplies the earliest possible year and era in the start fields, with null end fields. An `unknown` date has nulls in all four endpoint fields.
+When importing CSV, convert populated integer fields to numbers and empty fields to nulls. In Excel, use numeric cells for integers and blank cells for missing values.
 
-The ten Season 1 episodes of Maul - Shadow Lord use `~17 BBY`, matching the approximate placement in Wookieepedia's [Timeline of canon media](https://starwars.fandom.com/wiki/Timeline_of_canon_media). They follow the existing 18 BBY entries and precede Solo. The timeline marks their exact placement as uncertain.
+## Use it in JavaScript
 
-The November 14, 2026 timeline update uses the supplied dates and reliability labels below. Reliability is stored in `notes`; `exact` identifies a single year and does not imply that every placement has the same evidential support. The curated viewing order and stable IDs are preserved.
+Run from the repository directory with Node.js; no dependencies are required.
 
-| Media | Date | Date reliability |
-| --- | --- | --- |
-| Tales of the Empire: The Path of Hate | 7–9 ABY | Bounded estimate |
-| The Mandalorian S1–S2 | 9 ABY | Published reference |
-| The Book of Boba Fett | 9 ABY | Published reference |
-| The Mandalorian S3 | 9 ABY | Supported inference |
-| Ahsoka S1 | 9 ABY | Published anchor + inference |
-| Skeleton Crew S1 | ~9 ABY | Approximate |
-| The Mandalorian and Grogu | ~14 ABY | Approximate, from creator-team discussion |
+```js
+import { readFileSync } from 'node:fs';
 
-## November 14 audit corrections
+const timeline = JSON.parse(
+  readFileSync('star-wars-mainline-canon-timeline-order.json', 'utf8')
+);
 
-The audit widens Justice to `~68-58 BBY`, early Bad Batch Season 2 to `19~18 BBY`, and later Bad Batch episodes to `~18 BBY`. The Ventress Tales trilogy uses the latter estimate and now precedes The Harbinger. Resolve follows the Maul season as a curated viewing choice; its main-story label is `~17 BBY`, a provisional editorial estimate rather than an established year. Its funeral prologue remains 19 BBY in the notes. The official ordering constraint establishes only that the main encounter follows Chapter 7, not necessarily the entire season. Notes preserve open-ended bounds and unresolved dates; date labels follow [the strict date skill](skills/timeline-dates/SKILL.md).
+timeline.sort((a, b) => a.timeline_order - b.timeline_order);
 
-Both parts of Resistance's The Escape now use `34 ABY`, prioritizing Timelines while documenting the older 35 ABY reference. Other defensible main-story labels remain, with provenance and qualifications for estimates, flashbacks, overlaps and epilogues. Cad Bane dates and the film's `~14 ABY` remain provisional. The unresolved Yavin calendar convention is not changed. Stable IDs are preserved and viewing positions are renumbered consecutively.
+for (const { timeline_order, date_label, item_title } of timeline) {
+  console.log(`${timeline_order}. ${item_title} (${date_label})`);
+}
+```
 
-The audit's printed-reference attributions were often checked secondarily; `source_url` and `notes` distinguish those from direct official evidence. Date labels generally describe the main narrative rather than every depicted scene. Notes identify multi-period stories such as Practice Makes Perfect, Solo and the animated finales.
+## Maintain the timeline
 
-## Migrating from the six-field format
+- Preserve existing IDs when correcting titles, dates, or positions. Give new stories unique IDs.
+- Keep viewing positions consecutive from 1 and export every format in that order.
+- For date changes, follow the [timeline-dates skill](skills/timeline-dates/SKILL.md). Keep evidence and qualifications alongside the affected records.
+- Validate both JSON files against the schema. Compare IDs, order, and typed field values across JSON, lite JSON, CSV, and the local workbook.
 
-Use `date_label` wherever you previously displayed `Date`. Filter by `media_type` in place of `Type`. For TV episodes, `Title` and `Episode Name` map to `series_title` and `item_title`. For numbered saga films, `item_title` combines the former film title and subtitle. Standalone films keep their original titles.
+---
 
-`Season` and `Episode` become the integer fields `season_number` and `episode_number`. Earlier film records used the string `"n/a"` in those columns. Read JSON nulls or blank spreadsheet fields for films. The original rows supplied the initial watch positions. The migration leaves `source_url` and `notes` null because the original records supplied neither.
-
-## Updating the timeline
-
-Edit the workbook and export its rows in ascending `timeline_order`. Keep existing IDs when correcting a title or revising the watch order. Give a new entry a unique ID and update watch positions to form a consecutive sequence starting at 1.
-
-Validate the formatted JSON against the schema and minify that array for the lite copy. Compare all four files field by field after reading CSV and Excel values with the types above. Check that IDs are unique and that each file lists the same IDs in the same order.
+Unofficial fan project. Not affiliated with Lucasfilm or Disney.
